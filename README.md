@@ -19,10 +19,10 @@ Veritabanı /DB klasöründe. Veritabanına içe aktarım şeklinde aktarılır.
 
 ## Mobil Uygulama kısmında çalışan ekip üyeleri;
 
-## 180541022 Muhammed Raşit Yılmaz - Mobile
+**180541022 Muhammed Raşit Yılmaz - Mobile**
 
-## 175542006 Hamza Oban - Mobile 
+**175542006 Hamza Oban - Mobile**
 
-## 170542002 Alim Ahmet Aksakal - WebApi
+**170542002 Alim Ahmet Aksakal - WebApi**
 
-## 175542001 Aydın Yağız - WebApi
+**175542001 Aydın Yağız - WebApi**
