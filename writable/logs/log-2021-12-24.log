@@ -1,0 +1,672 @@
+CRITICAL - 2021-12-24 00:00:36 --> fopen(perkotek-personel-takip-programi-bigger.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(perkotek-...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(39): fopen('perkotek-person...', 'rb')
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-24 00:26:32 --> Column 'image_user_id' cannot be null
+CRITICAL - 2021-12-24 00:26:32 --> Column 'image_user_id' cannot be null
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(47): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 00:26:55 --> Column 'image_user_id' cannot be null
+CRITICAL - 2021-12-24 00:26:55 --> Column 'image_user_id' cannot be null
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(47): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 00:27:14 --> Column 'image_user_id' cannot be null
+CRITICAL - 2021-12-24 00:27:14 --> Column 'image_user_id' cannot be null
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(47): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 00:27:21 --> Column 'image_user_id' cannot be null
+CRITICAL - 2021-12-24 00:27:21 --> Column 'image_user_id' cannot be null
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(47): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 00:44:58 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-12-24 00:44:58 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(22): App\Models\ImageModel->GetAllImage()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-24 00:49:47 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(23): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:50:43 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:51:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:53:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:53:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:53:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:53:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:54:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:54:39 --> Undefined variable: data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:55:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 00:55:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 00:56:11 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 00:56:46 --> Undefined property: stdClass::$mime
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:57:00 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:57:26 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 00:58:50 --> Undefined property: stdClass::$img_mime
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 01:00:19 --> Undefined property: stdClass::$img_mime
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 01:00:36 --> Undefined property: stdClass::$img_mime
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 01:00:37 --> Undefined property: stdClass::$img_mime
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 01:00:38 --> Undefined property: stdClass::$img_mime
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 01:00:51 --> Undefined property: stdClass::$img_data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 01:01:12 --> Undefined property: stdClass::$img_data
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 01:12:33 --> syntax error, unexpected '=', expecting ';' or ','
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(27): view('Backend/HomeVie...', Array)
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-24 01:25:23 --> MySQL server has gone away
+CRITICAL - 2021-12-24 01:25:23 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(54): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-24 01:25:26 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 286138368 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-24 04:40:42 --> Array to string conversion
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 04:41:06 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:41:10 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:41:16 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 04:41:39 --> Undefined index: image_size
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 04:42:04 --> Trying to get property 'image_size' of non-object
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 04:42:17 --> Undefined index: image_size
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-24 04:42:48 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:43:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(25): App\Models\ImageModel->GetBar()
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 04:44:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:44:18 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:44:27 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:44:55 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:44:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:45:09 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 04:45:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#3 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(29): view('Backend/HomeVie...', Array)
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 05:18:05 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:18:05 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:18:13 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:18:13 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:20:22 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:20:22 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:20:32 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:20:32 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:20:59 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:20:59 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:21:56 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:21:56 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:23:56 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:23:56 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:25:13 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:25:13 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:27:13 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:27:13 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:33:37 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:33:37 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:35:55 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:35:55 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 05:38:36 --> MySQL server has gone away
+CRITICAL - 2021-12-24 05:38:36 --> MySQL server has gone away
+#0 C:\xampp\htdocs\cloudCi4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\htdocs\cloudCi4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\htdocs\cloudCi4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\htdocs\cloudCi4\app\Models\ImageModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(56): App\Models\ImageModel->ImageInsert(Array)
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#8 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-24 05:41:47 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-24 06:17:05 --> Undefined property: App\Controllers\Api\Home::$loginModel
+#0 C:\xampp\htdocs\cloudCi4\app\Controllers\Api\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Api\Home->login('ahmet', 'aksakal', '123')
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Home))
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 06:18:03 --> Undefined property: App\Controllers\Api\Home::$loginModel
+#0 C:\xampp\htdocs\cloudCi4\app\Controllers\Api\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Api\Home->login('ahmet', 'aksakal', '123')
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Home))
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,251 @@
+CRITICAL - 2021-12-21 22:50:33 --> Cannot use [] for reading
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-21 22:50:38 --> Cannot use [] for reading
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-21 22:54:12 --> syntax error, unexpected token ")"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(26): view('Backend/SosyalM...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 22:55:47 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-21 22:56:10 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 37)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(25): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 22:57:02 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 91)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(25): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 22:57:14 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 91)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(25): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 22:59:19 --> Undefined array key "twitter"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 91)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(25): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 22:59:52 --> Undefined array key "twitter"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 22:59:57 --> Undefined array key "twitter"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 23:00:17 --> Undefined array key "twitter"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 23:01:50 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 36)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(29): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:12:48 --> Unclosed '[' does not match ')'
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-21 23:13:07 --> Unclosed '[' does not match ')'
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-21 23:22:16 --> Undefined variable $img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 28)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 23:22:20 --> Undefined property: App\Controllers\Backend\SosyalMedya::$AyarlarModel
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 33)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 23:22:29 --> Undefined property: App\Controllers\Backend\SosyalMedya::$AyarlarModel
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 33)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 23:26:23 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:26:31 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:26:41 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:27:05 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:27:06 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:27:06 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:27:10 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:34:54 --> Undefined variable $facebook
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:35:34 --> syntax error, unexpected single-quoted string "site_facebook", expecting identifier or variable or "{" or "$"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 23:37:01 --> Undefined property: stdClass::$site_youtube
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\SosyalMedyaView.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 76)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/SosyalM...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\SosyalMedya.php(38): view('Backend/SosyalM...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\SosyalMedya->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SosyalMedya))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 23:59:48 --> Undefined variable $record
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\Layouts\Main.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 138)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/HomeVi...', Array, true)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(32): view('Frontend/HomeVi...', Array)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->index('tr')
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

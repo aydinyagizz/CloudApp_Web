@@ -1,0 +1,885 @@
+CRITICAL - 2021-12-23 01:37:22 --> Encrypter needs a starter key.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter(Object(Config\Encryption))
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(34): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 01:49:43 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(40): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 01:50:04 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(40): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 01:56:46 --> password_hash() expects at least 2 arguments, 1 given
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(30): password_hash(123456)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-23 01:57:02 --> password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): password_hash('123456', 'PASSWORD_DEFAUL...')
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-23 01:57:23 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(39): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 01:57:38 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(39): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 01:59:52 --> Undefined variable $user_xor_pass
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 49)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-23 02:01:47 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(42): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('Bci5nOzMz8eHr5b...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:02:07 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(42): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('YFvhkhjCmfoL8l4...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:02:19 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(42): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ZIRIfaVqY6aZ0Pm...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:02:44 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(42): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('MJgJcCOQ+ghZNy/...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:03:21 --> Encrypter needs a starter key.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(40): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 02:03:48 --> Encrypter needs a starter key.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(40): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 02:04:22 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(43): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('cUx76dxhJ9MnRs7...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:11:46 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(39): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('o1jIXW3HN718dHm...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:12:05 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(39): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('5jhlb39OlpeCFPg...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:13:58 --> syntax error, unexpected token "echo"
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Program File...')
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\logi...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\logi...')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:14:07 --> Encrypter needs a starter key.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(43): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 02:14:38 --> Class "App\Models\Encryption" not found
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 02:15:36 --> syntax error, unexpected token ";", expecting ")"
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Program File...')
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\logi...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\logi...')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:16:42 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(39): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:21:59 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:24:15 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:25:27 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:25:35 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:26:11 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:26:25 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:27:28 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:28:13 --> Encrypter needs a starter key.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(28): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 02:28:28 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:31:31 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:32:01 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:45:57 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:51:02 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 02:52:36 --> Unable to find an available SodiumHandler encryption handler.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Encryption.php(96): CodeIgniter\Encryption\Exceptions\EncryptionException::forNoHandlerAvailable('SodiumHandler')
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\Services.php(213): CodeIgniter\Encryption\Encryption->__construct(Object(Config\Encryption))
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter(Object(Config\Encryption))
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 02:52:43 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 04:13:53 --> Decrypting: authentication failed.
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 04:14:19 --> Undefined variable $user_hash_key
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 37)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-23 04:23:20 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-23 04:53:06 --> syntax error, unexpected token "return"
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Program File...')
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\logi...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\logi...')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 04:53:10 --> syntax error, unexpected token "return"
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Program File...')
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\logi...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\logi...')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 04:56:27 --> Undefined variable $user_hash_pass
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): App\Models\LoginModel->decryptpass('123456', '123456789000')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456789000')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 05:11:20 --> openssl_encrypt(): IV passed is 64 bytes long which is longer than the 16 expected by selected cipher, truncating
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_encrypt...', 'D:\\Program File...', 52)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(52): openssl_encrypt('123456', 'AES-256-CBC', '15e2b0d3c33891e...', false, '895d5b2342fe709...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): App\Models\LoginModel->encryptpass('123456', '123456789')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456789')
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 05:11:52 --> openssl_encrypt(): IV passed is 32 bytes long which is longer than the 16 expected by selected cipher, truncating
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_encrypt...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(53): openssl_encrypt('123456', 'AES-256-CBC', '15e2b0d3c33891e...', false, '895d5b2342fe709...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): App\Models\LoginModel->encryptpass('123456', '123456789')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456789')
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 05:12:29 --> openssl_encrypt(): IV passed is 32 bytes long which is longer than the 16 expected by selected cipher, truncating
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_encrypt...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(53): openssl_encrypt('123456', 'AES-256-CBC', '15e2b0d3c33891e...', false, '2b68cce3c051087...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): App\Models\LoginModel->encryptpass('123456', '123456789')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456789')
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 05:15:49 --> openssl_encrypt(): Unknown cipher algorithm
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_encrypt...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(54): openssl_encrypt('123456', 'BASE-64', '15e2b0d3c33891e...', false, '895d5b2342fe709...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): App\Models\LoginModel->encryptpass('123456', '123456789')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456789')
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 05:16:22 --> base64_encode() expects exactly 1 argument, 0 given
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(54): base64_encode()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): App\Models\LoginModel->encryptpass('123456', '123456789')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456789')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 05:16:29 --> base64_encode() expects exactly 1 argument, 0 given
+#0 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(54): base64_encode()
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\LoginModel.php(31): App\Models\LoginModel->encryptpass('123456', '123456789')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(45): App\Models\LoginModel->girisYap('rabop64846@ritu...', '123456', '123456789')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->login()
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 05:33:08 --> openssl_encrypt(): IV passed is 64 bytes long which is longer than the 16 expected by selected cipher, truncating
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_encrypt...', 'D:\\Program File...', 80)
+#1 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\RegisterModel.php(80): openssl_encrypt('123456', 'aes-256-cbc-hma...', '15e2b0d3c33891e...', false, 'af2a5f3309104e6...')
+#2 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Models\RegisterModel.php(43): App\Models\RegisterModel->encryptpass('123456', '123456789')
+#3 D:\Program Files\XAMPP\htdocs\cloudCi4\app\Controllers\Frontend\Home.php(101): App\Models\RegisterModel->kayitOl('admin@gmail.com', 'dsadasd', 'aydinyagiz044@g...', '123456', '123456789', '1xFbPwNgRuAFGuL...')
+#4 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->register()
+#5 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 D:\Program Files\XAMPP\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 19:50:18 --> Array to string conversion
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(173): App\Filters\IsLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('panel/anasayfa', 'before')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 19:53:11 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(173): App\Filters\IsLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('panel/anasayfa', 'before')
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-23 19:53:22 --> Array to string conversion
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(173): App\Filters\IsLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('panel/anasayfa', 'before')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 19:55:21 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(173): App\Filters\IsLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('login', 'before')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:01:18 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(173): App\Filters\IsLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('login', 'before')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:02:02 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(173): App\Filters\IsLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('login', 'before')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:05:00 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(173): App\Filters\IsLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('login', 'before')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:29:32 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login/mail', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:29:45 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login/mail', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:29:55 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:30:14 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:30:14 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:34:53 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:35:34 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-23 20:35:39 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:46:28 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 20:47:32 --> Undefined offset: 1
+#0 C:\xampp\htdocs\cloudCi4\app\Filters\IsLoggedIn.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\Filters\Filters.php(196): App\Filters\IsLoggedIn->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('login', 'after')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 21:43:15 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:43:15 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:43:15 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:43:53 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:43:53 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:53:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:53:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:53:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:53:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:53:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:53:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:55:08 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:55:08 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:55:08 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:55:19 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:55:19 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:56:08 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:56:08 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:03:25 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:03:25 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:06:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:08:10 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:13:24 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:19:48 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(35): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:21:34 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(20): view('Backend/HomeVie...')
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 22:22:42 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\cloudCi4\app\Views\Backend\HomeView.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cloudCi4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/HomeVie...', Array, true)
+#4 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(20): view('Backend/HomeVie...')
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->index()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#7 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 22:34:18 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(37): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:34:58 --> Invalid file: Backend/admin_index.php
+#0 C:\xampp\htdocs\cloudCi4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/admin_i...')
+#1 C:\xampp\htdocs\cloudCi4\system\Common.php(1097): CodeIgniter\View\View->render('Backend/admin_i...', Array, true)
+#2 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(50): view('Backend/admin_i...')
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 22:37:27 --> Undefined index: file
+#0 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 22:37:30 --> Undefined index: file
+#0 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 23:39:48 --> Too few arguments to function App\Controllers\Backend\Home::imageUpload(), 0 passed in C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-23 23:39:53 --> Too few arguments to function App\Controllers\Backend\Home::imageUpload(), 0 passed in C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-23 23:46:53 --> Undefined index: file
+#0 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 23:47:06 --> Undefined index: file
+#0 C:\xampp\htdocs\cloudCi4\app\Controllers\Backend\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(824): App\Controllers\Backend\Home->imageUpload()
+#2 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Home))
+#3 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 23:48:46 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\cloudCi4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cloudCi4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 23:53:20 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\cloudCi4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cloudCi4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\cloudCi4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cloudCi4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

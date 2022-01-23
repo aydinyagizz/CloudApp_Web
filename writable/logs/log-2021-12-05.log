@@ -1,0 +1,112 @@
+CRITICAL - 2021-12-05 02:54:14 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 02:54:38 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 02:55:06 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 02:55:11 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 02:55:16 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 02:55:41 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 02:59:44 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 03:00:20 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 03:00:58 --> fopen(http://localhost/bitirmeProjesi-Ci/assets/Frontend/images/duyurular/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(174): fopen('http://localhos...', 'x+b')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1638662458_1813...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-05 03:03:57 --> fopen(http://localhost/bitirmeProjesi-Ci/assets/Frontend/images/duyurular/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(174): fopen('http://localhos...', 'x+b')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1638662637_1957...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-05 03:04:29 --> fopen(http://localhost/bitirmeProjesi-Ci/assets/Backend/images/duyurular/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(174): fopen('http://localhos...', 'x+b')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1638662669_1947...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-05 03:07:41 --> fopen(http://localhost/bitirmeProjesi-Ci/assets/Backend/images/duyurular/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(174): fopen('http://localhos...', 'x+b')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1638662861_7ac7...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-05 03:07:51 --> fopen(http://localhost/bitirmeProjesi-Ci/assets/Backend/images/duyurular/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(174): fopen('http://localhos...', 'x+b')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1638662871_692d...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-05 03:27:46 --> Array to string conversion
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:30:29 --> Trying to get property 'file' of non-object
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

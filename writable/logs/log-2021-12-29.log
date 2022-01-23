@@ -1,0 +1,2 @@
+ERROR - 2021-12-29 18:27:52 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Bilinen b�yle bir ana bilgisayar yok. 
+ERROR - 2021-12-29 18:37:08 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Bilinen b�yle bir ana bilgisayar yok. 

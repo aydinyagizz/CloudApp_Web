@@ -1,0 +1,28 @@
+CRITICAL - 2021-11-23 18:01:13 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(41): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 18:01:19 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(41): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 18:23:15 --> Call to undefined method CodeIgniter\Pager\Pager::default_full()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(41): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

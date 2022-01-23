@@ -1,0 +1,9 @@
+CRITICAL - 2021-11-27 14:19:18 --> Invalid file: Backend/LoginViewe.php
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/LoginVi...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Backend/LoginVi...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Login.php(22): view('Backend/LoginVi...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,43 @@
+CRITICAL - 2021-12-10 17:04:50 --> Undefined index: file
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 17:05:02 --> Undefined index: file
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 17:06:11 --> Call to a member function isValid() on string
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 17:06:17 --> Call to a member function isValid() on string
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 17:10:09 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Backend\Duyurular.php(47): App\Models\DuyuruModel->DuyuruEkle(Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Backend\Duyurular->duyuruEkle()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Duyurular))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 17:38:26 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

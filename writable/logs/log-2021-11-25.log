@@ -1,0 +1,1935 @@
+CRITICAL - 2021-11-25 00:09:43 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:09:43 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:09:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:09:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:10:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:10:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:11:09 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:11:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:11:25 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:11:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:11:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:11:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:38 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:38 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:39 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:39 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:39 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:39 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:44 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:44 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:14:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:14:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:14:02 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:14:02 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:14:02 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:14:02 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:14:02 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:14:02 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:30 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:15:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:15:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:18:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:19:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:19:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:19:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:19:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:19:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:19:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:19:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:20:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:20:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:20:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:20:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:20:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:20:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:20:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:21:44 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:21:44 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:21:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:21:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:21:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:21:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:21:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:21:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:21:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:21:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:21:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:21:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:22:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(46): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:22:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:22 --> Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\DuyurularView.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:28:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:28 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:28:28 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:31 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:28:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:47 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:28:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:48 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:28:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:48 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:28:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:28:48 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:28:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:31:52 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:31:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:31:53 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:31:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:31:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:32:37 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:32:37 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:32:37 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:33:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:33:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:33:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:37:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 00:51:46 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 00:51:54 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:51:57 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(47): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:52:54 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/HomeVi...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(30): view('Frontend/HomeVi...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->index('en')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 00:53:44 --> syntax error, unexpected 'nav' (T_STRING)
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/HomeVi...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(30): view('Frontend/HomeVi...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->index('en')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 02:35:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:35:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:35:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:35:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:35:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:36:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:36:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:36:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:36:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:36:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:36:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\bitirmeProjesi-Ci\app\Config\Events.php:32) in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-25 02:40:11 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 02:40:14 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 02:40:15 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 02:40:18 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 02:40:39 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 02:41:39 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 02:42:59 --> Call to undefined method App\Models\DuyuruModel::pager
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(45): CodeIgniter\Model->__call('pager', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 03:13:08 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(49): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('en')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:13:18 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(49): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:14:59 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:15:06 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:15:22 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:19:31 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:19:40 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:19:56 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:20:05 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:20:09 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(52): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 03:20:18 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php on line 87
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Views\Frontend\Layouts\Main.php(103): base_url(NULL)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(50): view('Frontend/Duyuru...', Array)
+#8 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('tr')
+#9 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#10 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-25 04:11:20 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';' or ','
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(55): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('en')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 12:19:30 --> syntax error, unexpected 'yazi_resim' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(55): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('en')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 12:21:38 --> syntax error, unexpected '$duyuru' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(55): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('en')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 12:29:45 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(55): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('en')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 12:29:51 --> syntax error, unexpected '?'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(55): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('en')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 12:46:42 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(55): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurular('en')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 13:40:45 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:40:49 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:41:21 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(66): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:42:03 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:42:36 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:42:44 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:43:20 --> Too few arguments to function App\Models\DuyuruModel::getSingleDuyuru(), 0 passed in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php on line 68 and exactly 1 expected
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:43:27 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:44:10 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:44:23 --> Call to a member function getResultArray() on int
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:50:31 --> Argument 2 passed to url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:50:36 --> Argument 2 passed to url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:53:25 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Duyu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Duyu...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(14): spl_autoload_call('App\\Models\\Duyu...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 13:53:28 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Duyu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Duyu...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(14): spl_autoload_call('App\\Models\\Duyu...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 13:53:32 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Duyu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Duyu...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(14): spl_autoload_call('App\\Models\\Duyu...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 13:55:12 --> syntax error, unexpected 'die' (T_EXIT)
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Duyu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Duyu...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(14): spl_autoload_call('App\\Models\\Duyu...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 13:55:14 --> syntax error, unexpected 'die' (T_EXIT)
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Duyu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Duyu...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(14): spl_autoload_call('App\\Models\\Duyu...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 13:55:19 --> syntax error, unexpected 'die' (T_EXIT)
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Duyu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Duyu...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(14): spl_autoload_call('App\\Models\\Duyu...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 13:55:41 --> Argument 2 passed to mb_url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:55:45 --> Argument 2 passed to mb_url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:55:55 --> Argument 2 passed to mb_url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:56:07 --> Argument 2 passed to mb_url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:57:08 --> Argument 2 passed to mb_url_title() must be of the type string, null given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', NULL, 'true')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:59:19 --> Argument 2 passed to mb_url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 13:59:24 --> syntax error, unexpected 'true' (T_STRING), expecting ']'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Duyu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Duyu...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(14): spl_autoload_call('App\\Models\\Duyu...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(801): App\Controllers\Frontend\Home->__construct()
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 13:59:55 --> Argument 2 passed to mb_url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 14:00:09 --> Argument 2 passed to mb_url_title() must be of the type string, array given, called in C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php on line 26
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Models\DuyuruModel.php(26): mb_url_title('Twitter-Hesab\xC4\xB1...', Array)
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(68): App\Models\DuyuruModel->getSingleDuyuru('Twitter-Hesab\xC4\xB1...')
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('tr', 'Twitter-Hesab\xC4\xB1...')
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 19:09:20 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(72): view('Frontend/Duyuru...', Array)
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('en', 'twitter-hesabi-...')
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 19:11:32 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\bitirmeProjesi-Ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bitirmeProjesi-Ci\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Duyuru...', Array, true)
+#2 C:\xampp\htdocs\bitirmeProjesi-Ci\app\Controllers\Frontend\Home.php(72): view('Frontend/Duyuru...', Array)
+#3 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->duyurudetay('en', 'twitter-hesabi-...')
+#4 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#5 C:\xampp\htdocs\bitirmeProjesi-Ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bitirmeProjesi-Ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
