@@ -11,7 +11,7 @@
 
 ## Kurulumu
 
-Veritabanını /DB klasöründe. Onu veritabanına içe aktarım şeklinde aktarılır.
+Veritabanı /DB klasöründe. Veritabanına içe aktarım şeklinde aktarılır.
 
 /App/Config/App.php'de **public $baseURL = 'ProjectUrl';** değiştirilir.
 
