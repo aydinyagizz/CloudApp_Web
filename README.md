@@ -26,3 +26,8 @@ Veritabanı /DB klasöründe. Veritabanına içe aktarım şeklinde aktarılır.
 **170542002 Alim Ahmet Aksakal - Web**
 
 **175542001 Aydın Yağız - Web**
+
+
+## Mobil uygulamanın github linki;
+
+**https://github.com/mrasityilmaz/CloudApp_Mobile**
