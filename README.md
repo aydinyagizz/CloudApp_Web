@@ -17,7 +17,7 @@ Veritabanı /DB klasöründe. Veritabanına içe aktarım şeklinde aktarılır.
 
 /App/Config/Database.php'de **public $default** argümanları kendi veritabanınıza göre ayarlanır.
 
-## Uygulamada çalışan ekip üyeleri;
+## Uygulamada çalışan ekip üyeleri
 
 **180541022 Muhammed Raşit Yılmaz - Mobile**
 
@@ -28,6 +28,6 @@ Veritabanı /DB klasöründe. Veritabanına içe aktarım şeklinde aktarılır.
 **175542001 Aydın Yağız - Web**
 
 
-## Mobil uygulamanın github linki;
+## Mobil uygulamanın github linki
 
 **https://github.com/mrasityilmaz/CloudApp_Mobile**
