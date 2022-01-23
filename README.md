@@ -16,3 +16,13 @@ Veritabanı /DB klasöründe. Veritabanına içe aktarım şeklinde aktarılır.
 /App/Config/App.php'de **public $baseURL = 'ProjectUrl';** değiştirilir.
 
 /App/Config/Database.php'de **public $default** argümanları kendi veritabanınıza göre ayarlanır.
+
+## Mobil Uygulama kısmında çalışan ekip üyeleri;
+
+## 180541022 Muhammed Raşit Yılmaz - Mobile
+
+## 175542006 Hamza Oban - Mobile 
+
+## 170542002 Alim Ahmet Aksakal - WebApi
+
+## 175542001 Aydın Yağız - WebApi
